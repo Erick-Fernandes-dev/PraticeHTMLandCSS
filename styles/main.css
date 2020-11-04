@@ -1,0 +1,45 @@
+
+    html {
+        font-family: 'roboto', 'sans-serif';
+    }
+    /* Box mode
+
+    modelo de caixa
+    toda ciaxa tem:
+
+    altura, largura, espaçamento, preenchimento
+    bordas, cor, fundo, maneira que é vista pelo html.(display)
+    alinhamentos
+*/
+
+body{
+    background: #f0f0f5
+}
+
+#page_home {
+    height: 100vh;
+
+    background: url(../icones/home-background.svg) no-repeat;
+    background-position: 35vw bottom;
+
+
+}
+
+#page_home .content {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto ;
+}
+
+
+#page_home header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
